@@ -49,9 +49,9 @@ class MainScreen extends StatelessWidget {
                   crossAxisCount: 2, // 4 columns in the grid
                   crossAxisSpacing: 10, // Horizontal space between buttons
                   mainAxisSpacing: 10,
-                  childAspectRatio: 2.6// Vertical space between buttons
+                  childAspectRatio: 2.4// Vertical space between buttons
                 ),
-                itemCount: 14, // 4x4 = 16 buttons
+                itemCount: 10, // 4x4 = 16 buttons
                 itemBuilder: (context, index) {
                   String buttonText = 'LOGIN ${index + 1}';
                   return buildButton(
